@@ -1,0 +1,5 @@
+commit ebb81def089efb5276ef3158673825958ced2059
+Author: Peter Jiang <peterjiang@lm-10bd3a83f689.dhcp.usask.ca>
+Date:   Wed Sep 18 16:23:29 2024 -0600
+
+    Step 1,initialized and setup a git repo. Step 2, created and imported new godot project files into repo
