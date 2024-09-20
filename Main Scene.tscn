@@ -8,10 +8,10 @@ shader = ExtResource("1_3thtf")
 
 [node name="Node2D" type="Node2D"]
 
-[node name="CanvasLayer2" type="CanvasLayer" parent="."]
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
 layer = -1
 
-[node name="ColorRect" type="ColorRect" parent="CanvasLayer2"]
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
 material = SubResource("ShaderMaterial_lsvpi")
 anchors_preset = 15
 anchor_right = 1.0
