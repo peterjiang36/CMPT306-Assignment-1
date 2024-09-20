@@ -1,25 +1,31 @@
+commit f5d65dc8597dacf3562cde5c62862d6203c35daa
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Thu Sep 19 18:06:38 2024 -0600
+
+	Update gitlog.txt
+
 commit 827303420e8b5ecbe91511c0e4dfb812c16c6de8
 Author: Peter Jiang <peter.j@usask.ca>
 Date:   Thu Sep 19 18:04:38 2024 -0600
 
-    Step 4, setup background layer
-    
-    Added a new "CsanvasLayer" node, and added a "ColorRect" control node as a child of the layer to the scene tree. Set the ColorRect's size to expand to its parent control rect and the color to white
+	Step 4, setup background layer
+	
+	Added a new "CsanvasLayer" node, and added a "ColorRect" control node as a child of the layer to the scene tree. Set the ColorRect's size to expand to its parent control rect and the color to white
 
 commit b41771d27059613c743425cfbba21a8137b5ef6c
 Author: Peter Jiang <peter.j@usask.ca>
 Date:   Thu Sep 19 17:23:55 2024 -0600
 
-    Step 3, setup root scene and name it to "Main Scene"
+	Step 3, setup root scene and name it to "Main Scene"
 
 commit f0def45f8d9414af7bfda398e8a54b1a54b34498
 Author: Peter Jiang <peter.j@usask.ca>
 Date:   Thu Sep 19 15:58:37 2024 -0600
 
-    Create gitlog.txt
+	Create gitlog.txt
 
 commit ebb81def089efb5276ef3158673825958ced2059
 Author: Peter Jiang <peterjiang@lm-10bd3a83f689.dhcp.usask.ca>
 Date:   Wed Sep 18 16:23:29 2024 -0600
 
-    Step 1,initialized and setup a git repo. Step 2, created and imported new godot project files into repo
+	Step 1,initialized and setup a git repo. Step 2, created and imported new godot project files into repo
