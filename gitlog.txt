@@ -1,3 +1,23 @@
+commit 1bb3a0d7d548d9ff4cc1e38d4c3bfbc7639b8faf
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Thu Sep 19 23:18:34 2024 -0600
+
+    Step 6, add player
+    
+    added player and playerSprite node and set the CanvasLayer to -1 layer. End of the day commit.
+
+commit e51621b99aaf072d98667eca0b05ebe368e92b92
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Thu Sep 19 23:09:24 2024 -0600
+
+    Change the node to CanvasLayer Node
+
+commit 0cc5ca0aa0ecb15bba2c06fc0c88373c4389c113
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Thu Sep 19 22:43:23 2024 -0600
+
+    Update gitlog.txt
+
 commit 2e84bf7e628b2dee65a0d8a30600918f7d654d76
 Author: Peter Jiang <peter.j@usask.ca>
 Date:   Thu Sep 19 22:40:33 2024 -0600
