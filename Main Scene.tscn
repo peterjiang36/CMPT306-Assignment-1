@@ -26,8 +26,8 @@ grow_vertical = 2
 [node name="Player" type="Node2D" parent="."]
 
 [node name="PlayerSprite" type="Sprite2D" parent="Player"]
-position = Vector2(0, -100)
 texture = ExtResource("2_4q8ax")
+offset = Vector2(0, -100)
 
 [node name="Area2D" type="Area2D" parent="Player/PlayerSprite"]
 
