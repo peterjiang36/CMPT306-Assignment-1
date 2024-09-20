@@ -1,3 +1,23 @@
+commit 80f0df9583ec5ebf382bee8d474f9ae741887717
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Fri Sep 20 17:48:06 2024 -0600
+
+    Step 6, add Camera
+    
+    Added a Camera2d as a child of Player Node. And added Area2d node and CollisionShape2D node under Area2d
+
+commit 75ac860b0cce691d159a61b0f6394fd9debf6a33
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Thu Sep 19 23:19:32 2024 -0600
+
+    import circle.png for player
+
+commit 8515a4cf4d32f7c6a857a6973ce132ea0c5a2b54
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Thu Sep 19 23:19:18 2024 -0600
+
+    Update gitlog.txt
+
 commit 1bb3a0d7d548d9ff4cc1e38d4c3bfbc7639b8faf
 Author: Peter Jiang <peter.j@usask.ca>
 Date:   Thu Sep 19 23:18:34 2024 -0600
