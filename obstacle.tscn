@@ -1,18 +1,17 @@
-[gd_scene load_steps=3 format=3 uid="uid://c32jn46jju7re"]
+[gd_scene load_steps=2 format=3 uid="uid://c32jn46jju7re"]
 
 [ext_resource type="Script" path="res://obstacle.gd" id="1_mhnwx"]
-
-[sub_resource type="CircleShape2D" id="CircleShape2D_4251l"]
 
 [node name="Obstacle" type="AnimatableBody2D"]
 script = ExtResource("1_mhnwx")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("CircleShape2D_4251l")
-
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-polygon = PackedVector2Array(39, -71, 69, -85, 108, 3, 55, 96, -58, 97, -108, 4, -64, -87, -34, -71, -72, 3, -37, 65, 39, 63, 73, 0)
+position = Vector2(-226.11, -131.442)
+scale = Vector2(0.419337, 0.41711)
+polygon = PackedVector2Array(816, -14, 1051, 329, 788, 688, 184, 691, -57, 323, 172, -14, 315, 37, 127, 320, 286, 555, 705, 558, 867, 317, 683, 34)
 
 [node name="Line2D" type="Line2D" parent="CollisionPolygon2D"]
+position = Vector2(495, 314)
+scale = Vector2(5.125, 3.85455)
 points = PackedVector2Array(-50, -80, -90, 0, -50, 80, 50, 80, 90, 0, 50, -80)
 width = 30.0
