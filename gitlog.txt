@@ -1,3 +1,15 @@
+commit b7afd78b4b4214fef22ade50213763f453d1c9dd
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Fri Sep 20 21:36:41 2024 -0600
+
+    Step 11 and Step 12, create challenge, randomize the initial rotation and rotate the camera every frame
+
+commit ac7af20ddcba4db20b116d476fbfc74baa084169
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Fri Sep 20 19:50:14 2024 -0600
+
+    Update gitlog.txt
+
 commit a2699cb9f38245eaad8d40a704f13c7cf7a24967
 Author: Peter Jiang <peter.j@usask.ca>
 Date:   Fri Sep 20 18:52:44 2024 -0600
