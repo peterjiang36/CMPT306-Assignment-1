@@ -3,15 +3,14 @@
 [ext_resource type="Shader" path="res://Main Scene.gdshader" id="1_3thtf"]
 [ext_resource type="Texture2D" uid="uid://dyk2npihkq20k" path="res://circle.png" id="2_4q8ax"]
 [ext_resource type="Script" path="res://player.gd" id="2_yy4bq"]
-[ext_resource type="Script" path="res://obstacle.gd" id="4_1b6cr"]
+[ext_resource type="PackedScene" uid="uid://c32jn46jju7re" path="res://obstacle.tscn" id="4_tmgk5"]
+[ext_resource type="Script" path="res://spawn_manager.gd" id="5_mn6k0"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_lsvpi"]
 shader = ExtResource("1_3thtf")
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_p2du0"]
 radius = 32.0
-
-[sub_resource type="CircleShape2D" id="CircleShape2D_4251l"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -39,17 +38,11 @@ offset = Vector2(0, -100)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player/PlayerSprite/Area2D"]
 shape = SubResource("CircleShape2D_p2du0")
 
-[node name="Obstacle" type="AnimatableBody2D" parent="."]
-script = ExtResource("4_1b6cr")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Obstacle"]
-shape = SubResource("CircleShape2D_4251l")
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Obstacle"]
-polygon = PackedVector2Array(39, -71, 69, -85, 108, 3, 55, 96, -58, 97, -108, 4, -64, -87, -34, -71, -72, 3, -37, 65, 39, 63, 73, 0)
-
-[node name="Line2D" type="Line2D" parent="Obstacle/CollisionPolygon2D"]
-points = PackedVector2Array(-50, -80, -90, 0, -50, 80, 50, 80, 90, 0, 50, -80)
-width = 30.0
+[node name="Obstacle" parent="." instance=ExtResource("4_tmgk5")]
 
 [node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="SpawnManager" type="Node" parent="." node_paths=PackedStringArray("target_node")]
+script = ExtResource("5_mn6k0")
+obstacle_scene = ExtResource("4_tmgk5")
+target_node = NodePath("..")
