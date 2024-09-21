@@ -1,3 +1,45 @@
+commit a2699cb9f38245eaad8d40a704f13c7cf7a24967
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Fri Sep 20 18:52:44 2024 -0600
+
+    Step 10, create a spawner
+    
+    created a new node called SpawnManager and wrote some scripts to the node
+
+commit 85e2a6ac4020f5b62065f6f49a0c24b0bb4aaa56
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Fri Sep 20 18:35:54 2024 -0600
+
+    Step 9, Give the Enemy Functionality
+
+commit ba3c9e50582080952985d3c1c42595cd41210406
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Fri Sep 20 18:21:36 2024 -0600
+
+    Step 8, add an enemy
+    
+    added AnimatableBody2D named Obstacle. Added a CollisionPolygon2D under Obstacle and a Line2D under CollisionPolygon2D
+
+commit 39bd870cff51ec763ba83105af8b5a9d0061b3fa
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Fri Sep 20 18:02:06 2024 -0600
+
+    Step 7, add player script
+    
+    reads input and rotates the players base node when press left and right
+
+commit d9e3b03e3b92d158e320a5712b58ebb8cde04a6d
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Fri Sep 20 17:50:41 2024 -0600
+
+    Set PlayerSprite to be offset by y:-100px
+
+commit c81ce95a615ccf16e7d52c82ac0eb71ab26c53a6
+Author: Peter Jiang <peter.j@usask.ca>
+Date:   Fri Sep 20 17:48:49 2024 -0600
+
+    Update gitlog.txt
+
 commit 80f0df9583ec5ebf382bee8d474f9ae741887717
 Author: Peter Jiang <peter.j@usask.ca>
 Date:   Fri Sep 20 17:48:06 2024 -0600
